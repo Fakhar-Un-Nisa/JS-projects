@@ -1,0 +1,88 @@
+/* Global styles for all screen sizes */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(242, 130, 254);
+    font-family: Arial, sans-serif;
+}
+
+#meme {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+
+#heading {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(190, 124, 253);
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+#download-btn {
+    display: none;
+    /* Initially hidden */
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    #meme {
+        width: 80%;
+    }
+
+
+    #download-btn {
+
+        width: 80%;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    #meme {
+        width: 90%;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    #heading {
+        font-size: 1.2em;
+    }
+}
